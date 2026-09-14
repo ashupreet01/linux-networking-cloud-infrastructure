@@ -1,0 +1,5 @@
+services:
+  webapp:
+    image: docker-webapp
+    ports:
+      - "8080:80"
